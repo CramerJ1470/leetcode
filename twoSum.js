@@ -10,8 +10,8 @@ function main(nums, target) {
 					if (nums[i] + nums[j] === target) {
 						num1 = nums[i];
 						num2 = nums[j];
-                        console.log([i,j]);
-                        return;
+						console.log([i, j]);
+						return;
 					}
 				}
 		}
